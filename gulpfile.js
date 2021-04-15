@@ -112,7 +112,7 @@ function images() {
                 imagemin.mozjpeg({
                     progressive: true
                 }),
-                imagemin.svgo()
+                // imagemin.svgo()
             ])
         )
         .pipe(dest(`${source_folder}/img/`))
